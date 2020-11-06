@@ -1,4 +1,4 @@
-* __Authors__: Soheil Esmaeilzadeh
+* __Author__: Soheil Esmaeilzadeh
 * __Date__: Nov. 6th - 2020
 * __Email__: soes@stanford.edu
 
