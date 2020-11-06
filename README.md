@@ -25,6 +25,4 @@ Accordingly, I create a set of feature vectors corresponding to each wikipedia a
 
 In order to identify the recommended articles within the gathered corpus of wikipedia articles that are similar to an input article, I use the 'Cosine Similarity' as the similarity measure between the TF-IDF vectors that characterize the features attributed to each wikipedia article. Comparing the Cosine Similarity between the TF-IDF vector of the input article and the TF-IDF vectors of all the articles in the corpus, I then recommend the top <code>num_recommended_articles=10</code> articles to the user.
 
-### Measure of Similarity
 
-In order to identify the recommended articles within the gathered corpus of wikipedia articles that are similar to an input article I use the 'Cosine Similarity' as the similarity measure between the TF-IDF vectors that characterize the features attributed to each wikipedia article. Comparing the Cosine Similary between the TF-IDF vector of the input article and the TF-IDF vectors all the articles in the corpus, I then recommend the top <code>num_recommended_articles=10</code> articles to user.
