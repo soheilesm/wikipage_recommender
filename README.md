@@ -1,5 +1,5 @@
-# wikipage_recommender
-This repo presents a content-based recommendation framework for recommending users wikipedia pages
+# Wikipedia Article Recommendation
+This repo presents a content-based recommendation framework for recommending users wikipedia pages.
 
 ## Text Recommendation Framework
 
