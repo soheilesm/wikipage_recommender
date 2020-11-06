@@ -1,3 +1,7 @@
+* __Authors__: Soheil Esmaeilzadeh
+* __Date__: Nov. 6th - 2020
+* __Email__: soes@stanford.edu
+
 # Wikipedia Article Recommendation
 This repo presents a content-based recommendation framework for recommending users wikipedia pages.
 
