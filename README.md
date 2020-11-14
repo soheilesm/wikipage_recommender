@@ -7,13 +7,17 @@ This repo presents a content-based recommendation framework for recommending use
 
 ## Text Recommendation Framework
 
-### Recommendation Approach
-Here I build a recommender system based on the very basic principles of Content-Based Recommendation approach [[1](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10)]. In summary, a content-based recommender system utilizes the features of the product(s) in order to recommend other product(s) similar to what a user has liked, or purchased, or used.
+### Problem Description
+Here we present a recommendation system that is based on the very basic principles of the Content-Based Recommendation approach[[1](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10)] for recommending users Wikipedia articles. In summary, a content-based recommender system utilizes the features of the product(s) in order to recommend other product(s) similar to what a user has liked, or purchased, or used.
 
 ### Dataset Gathering and Cleaning
-Downloading all Wikipedia articles from the webstie comes to 78 GB of data when unzipped. So, as the source data, I gather a series of articles from Wikipedia. In order to gather such articles, I use the __wikipedia API__ for Python that can be accessed through [this link](https://pypi.org/project/wikipedia/). This API could be installed using the 'pip', as the standard package-management system for Python, using the command <code>pip install wikipedia</code>. In this work I gather a random set of __ONLY__ <code>num_random_articles=25000</code> wikipedia articles. Although, if I had more time and resources, I could have gathered, more and more articles to further saturate the corpus pool with multiple articles.
+Downloading all Wikipedia articles leads to 78 GB of data when unzipped. Accordingly, as the dataset, here we only gather a few thousands of articles from Wikipedia. 
 
-As a very simple cleaning step, I get rid of non-contextual components in the text, e.g. '\n' and etc. For each article, I gather the whole summary of the article provided by the wikipedia API. Such a summary usually includes the upper most chunk of text that one would observe generally when opening a wikipedia page.
+In order to gather such articles, we use Wikipedia's Python API that can be accessed through this [link](https://pypi.org/project/wikipedia/). This API could be installed by using, <code>pip</code>, as the standard package-management system for Python, using the command <code>pip install wikipedia</code>. 
+
+In this work, we only gather a random set of <code>num_random_articles=25000</code> wikipedia articles. Although, the more articles we gather the better the recommendation system could work in terms of recommending appropriate articles to the users.
+
+As a very simple cleaning step, we get rid of non-contextual components in the text, e.g. <code>\n</code> and etc. For each article, we gather the whole summary of the article provided by the Wikipedia API. Such a summary includes the uppermost chunk of text that one would usually see on a Wikipedia page.
 
 ### Featurization
 
