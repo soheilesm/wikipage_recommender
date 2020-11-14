@@ -1,6 +1,7 @@
 * __Author__: Soheil Esmaeilzadeh
 * __Date__: Nov. 6th - 2020
 * __Email__: soes@stanford.edu
+* __Published on Medium__: [Article's Link](https://medium.com/wikipedia-article-recommendation-system/wikipedia-article-recommendation-e6431c8eca31)
 
 # Wikipedia Article Recommendation
 This repo contains a content-based recommendation framework for recommending users wikipedia pages. A recommendation system that given an input Wikipedia article, recommends a series of  articles to read.
