@@ -3,7 +3,7 @@
 * __Email__: soes@stanford.edu
 
 # Wikipedia Article Recommendation
-This repo presents a content-based recommendation framework for recommending users wikipedia pages.
+This repo presents a content-based recommendation framework for recommending users wikipedia pages. A recommendation system that given an input Wikipedia article, recommends a series of  articles to read.
 
 ### Problem Description
 Here we present a recommendation system that is based on the very basic principles of the Content-Based Recommendation approach [[1](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10)] for recommending users Wikipedia articles. In summary, a content-based recommender system utilizes the features of the product(s) in order to recommend other product(s) similar to what a user has liked, or purchased, or used.
